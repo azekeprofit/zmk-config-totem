@@ -63,27 +63,27 @@
 
         Ctrl_Z {
             bindings = <&kp LC(Z)>;
-            key-positions = <20 21>;
+            key-positions = <21 22>;
         };
 
         Ctrl_X {
             bindings = <&kp LC(X)>;
-            key-positions = <21 22>;
+            key-positions = <22 23>;
         };
 
         Ctrl_C {
             bindings = <&kp LC(C)>;
-            key-positions = <22 23>;
+            key-positions = <23 24>;
         };
 
         Ctrl_V {
             bindings = <&kp LC(V)>;
-            key-positions = <23 24>;
+            key-positions = <24 25>;
         };
 
         capsword {
             bindings = <&caps_word>;
-            key-positions = <30 33>;
+            key-positions = <33 36>;
         };
 
         ru {
@@ -93,7 +93,7 @@
 
         kaz {
             bindings = <&ruen 5 LC(LS(NUMBER_4))>;
-            key-positions = <17 25>;
+            key-positions = <17 26>;
         };
 
         en {
@@ -109,31 +109,31 @@
 
         hard_sign {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <26 25>;
+            key-positions = <26 27>;
             layers = <1 5>;
         };
 
         ru_dot {
             bindings = <&kp SLASH>;
-            key-positions = <28 29>;
+            key-positions = <29 30>;
             layers = <1>;
         };
 
         kz_dot {
             bindings = <&kp N7>;
-            key-positions = <28 29>;
+            key-positions = <29 30>;
             layers = <5>;
         };
 
         ru_comma {
             bindings = <&kp LS(SLASH)>;
-            key-positions = <27 26>;
+            key-positions = <27 28>;
             layers = <1>;
         };
 
         kz_comma {
             bindings = <&kp N6>;
-            key-positions = <27 26>;
+            key-positions = <27 28>;
             layers = <5>;
         };
 
@@ -145,13 +145,13 @@
 
         ru_colon {
             bindings = <&kp LS(NUMBER_6)>;
-            key-positions = <28 17>;
+            key-positions = <29 17>;
             layers = <1>;
         };
 
         ru_semicolon {
             bindings = <&kp LS(NUMBER_4)>;
-            key-positions = <27 28>;
+            key-positions = <28 29>;
             layers = <1>;
         };
 
@@ -181,7 +181,7 @@
 
         kz_soft {
             bindings = <&kp M>;
-            key-positions = <16 25>;
+            key-positions = <16 26>;
             layers = <5>;
         };
 
@@ -324,10 +324,10 @@
 
         navigation_kz {
             bindings = <
-        &kp ESCAPE  &trans     &trans        &trans        &trans         &kp INS  &kp HOME  &kp UP_ARROW  &kp END    &kp PAGE_UP
-        &kp LSHIFT  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &trans         &kp DEL  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN
-&trans  &trans      &trans     &trans        &trans        &bootloader    &trans   &trans    &trans        &trans     &trans         &trans
-                               &trans        &trans        &trans         &trans   &trans    &trans
+        &kp ESCAPE  &trans     &trans        &trans        &trans             &kp INS  &kp HOME  &kp UP_ARROW  &kp END    &kp PAGE_UP
+        &kp LSHIFT  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &default_report    &kp DEL  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN
+&trans  &trans      &trans     &trans        &trans        &bootloader        &trans   &trans    &trans        &trans     &trans         &trans
+                               &trans        &trans        &trans             &trans   &trans    &trans
             >;
         };
 
