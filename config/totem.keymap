@@ -264,7 +264,7 @@
             &kp Q             &kp W        &kp F           &kp P                  &kp B          &kp J      &kp L             &kp U         &kp Y         &kp SEMICOLON
             &ht LEFT_SHIFT A  &ht LCTRL R  &ht LEFT_WIN S  &ht LEFT_ALT T         &kp G          &kp K      &rht RIGHT_ALT N  &rht RMETA E  &rht RCTRL I  &rht RIGHT_SHIFT O
 &kp LSHIFT  &kp Z             &kp X        &kp C           &kp D                  &kp V          &kp M      &kp H             &kp COMMA     &kp DOT       &kp ENTER           &kp RSHIFT
-                                           &trans          &ht LEFT_SHIFT ESCAPE  &lt 2 SPACE    &lt 3 TAB  &kp BACKSPACE     &trans
+                                           &kp LEFT_SHIFT  &kp ESCAPE  &lt 2 SPACE    &lt 3 TAB  &kp BACKSPACE    &kp RIGHT_SHIFT
             >;
         };
 
