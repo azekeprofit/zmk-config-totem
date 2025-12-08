@@ -288,7 +288,7 @@
             bindings = <
         &kp ESCAPE  &trans     &trans        &trans        &trans         &kp INS     &kp HOME  &kp UP_ARROW  &kp END    &kp PAGE_UP
         &kp LSHIFT  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &trans         &kp DEL     &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN
-&trans  &trans      &trans     &trans        &trans        &bootloader    &mouseless  &trans    &trans        &trans     &trans         &trans
+&trans  &trans      &trans     &trans        &trans        &bootloader    &trans      &trans    &trans        &trans     &trans         &trans
                                &trans        &trans        &trans         &trans      &trans    &trans
             >;
         };
