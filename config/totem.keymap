@@ -87,17 +87,17 @@
         };
 
         ru {
-            bindings = <&ruen 1 LC(LS(NUMBER_2))>;
+            bindings = <&ruen 1 F15>;
             key-positions = <9 17>;
         };
 
         kaz {
-            bindings = <&ruen 5 LC(LS(NUMBER_4))>;
+            bindings = <&ruen 5 F16>;
             key-positions = <17 26>;
         };
 
         en {
-            bindings = <&ruen 0 LC(LS(NUMBER_3))>;
+            bindings = <&ruen 0 F14>;
             key-positions = <9 16>;
         };
 
@@ -218,7 +218,7 @@
         han {
             bindings = <&han 1>;
             key-positions = <7 5>;
-            layers = <0>;
+            layers = <0 5>;
         };
 
         enhan {
@@ -230,6 +230,11 @@
         hanja {
             bindings = <&kp LANG_HANJA>;
             key-positions = <5 6 7>;
+        };
+
+        mouseless {
+            bindings = <&kp F13>;
+            key-positions = <13 16>;
         };
     };
 
@@ -244,15 +249,8 @@
         han: han {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&macro_param_1to1 &to MACRO_PLACEHOLDER &kp LC(LS(NUMBER_3)) &kp LANG_HANGEUL>;
+            bindings = <&macro_param_1to1 &to MACRO_PLACEHOLDER &kp F14 &kp LANG_HANGEUL>;
             label = "han";
-        };
-
-        mouseless: mouseless {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp F19 &sl 9>;
-            label = "MOUSELESS";
         };
     };
 
@@ -273,7 +271,7 @@
         &trans  &kp W        &kp E       &kp R           &kp T     &kp Y   &kp U            &kp I        &kp O                &kp P
         &trans  &ht LCTRL S  &ht LGUI D  &ht LEFT_ALT F  &kp G     &kp H   &rht LEFT_ALT J  &rht RGUI K  &rht LEFT_CONTROL L  &rht LEFT_SHIFT SEMICOLON
 &trans  &kp Z   &kp X        &kp C       &kp V           &kp B     &kp N   &kp M            &trans       &trans               &trans                     &trans
-                             &trans      &trans          &trans    &trans  &trans           &trans
+                                           &kp LEFT_SHIFT  &kp ESCAPE  &lt 2 SPACE    &lt 3 TAB  &kp BACKSPACE    &kp RIGHT_SHIFT
             >;
         };
 
