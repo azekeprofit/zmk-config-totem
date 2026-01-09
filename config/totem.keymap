@@ -99,7 +99,7 @@
         en {
             bindings = <&ruen 0 F14>;
             key-positions = <9 16>;
-        };о
+        };
 
         ru_eh {
             bindings = <&kp SQT>;
