@@ -99,7 +99,7 @@
         en {
             bindings = <&ruen 0 F14>;
             key-positions = <9 16>;
-        };
+        };о
 
         ru_eh {
             bindings = <&kp SQT>;
@@ -235,6 +235,11 @@
         mouseless {
             bindings = <&kp F13>;
             key-positions = <13 16>;
+        };
+
+   monitor-off {
+            bindings = <&kp F17>;
+            key-positions = <29 31>;
         };
     };
 
